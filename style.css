@@ -1,0 +1,77 @@
+body{
+    background-color:wheat;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+h1{
+    font-size: 50px;
+    font-family: impact;
+    margin-right: 5px;
+}
+
+.upper{
+    background-color: purple;
+    color: white;
+    width: 500px ;
+    height: 180px;
+    margin-left: 550px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+     
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 500px;
+    margin-top: 50px;
+    
+  
+    
+   
+}
+
+.delete{
+    color: white;
+    background-color:red;
+   
+}
+
+.tasks{
+    background-color: rgb(144, 134, 134);
+    margin-left: 550px;
+    width: 100%;
+    justify-content: start;
+    
+  
+}
+ol li{
+font-size: 30px;
+padding-top: 10px;
+
+
+
+}
+
+input{
+    color:black;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: Gill Sans;
+    width: 145px;
+ 
+}
+input:hover{
+    box-shadow: 2px 2px 10px green;
+}
+input + button{
+    background-color:skyblue;
+    line-height: 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    color:black;
+    font-family: Gill Sans;
+}
